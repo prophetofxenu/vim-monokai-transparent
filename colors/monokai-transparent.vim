@@ -1,5 +1,6 @@
 " Vim color file
-" Converted from Textmate theme Monokai using Coloration v0.3.2 (http://github.com/sickill/coloration)
+" Monokai Tranparent
+" Original theme converted from Textmate theme Monokai using Coloration v0.3.2 (http://github.com/sickill/coloration)
 
 set background=dark
 highlight clear
@@ -9,7 +10,7 @@ if exists("syntax_on")
 endif
 
 set t_Co=256
-let g:colors_name = "monokai"
+let g:colors_name = "monokai-transparent"
 
 hi Cursor ctermfg=235 ctermbg=NONE cterm=NONE guifg=#272822 guibg=#f8f8f0 gui=NONE
 hi Visual ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=#49483e gui=NONE
